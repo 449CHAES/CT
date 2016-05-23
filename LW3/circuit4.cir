@@ -2,9 +2,9 @@
 FileType=CIR
 Version=9.00
 Program=Micro-Cap
-Screen=1680,1050
-MCAPVersion=9.0.7.0
-Key ID=1 423 547 585
+Screen=1920,1080
+MCAPVersion=9.0.3.0
+Key ID=2 233 293 684
 NLCnt=89
 TXCnt=7
 
@@ -95,7 +95,7 @@ Pin="VCC",4,-1,5,14
 Name=Ground
 Definition=Ground
 Shape=Ground
-Mask=1793
+Mask=257
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -105,7 +105,7 @@ Pin="PinA",0,0,-3,-7
 Name=Battery
 Definition=Battery
 Shape=Battery
-Mask=4865
+Mask=5889
 memo=Battery
 Label Offset=19,7,10,13
 PinCnt=2
@@ -116,7 +116,7 @@ Pin="Minus",0,0,-10,-5
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=7425
+Mask=6145
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -136,7 +136,7 @@ Pin="B",0,2,3,10
 Pin="C",6,1,-6,-1
 
 [Circuit]
-Window Placement=2,3, -1,-1, -4,-23, 88,88,1276,699
+Window Placement=2,3, -1,-1, -9,-38, 96,96,1426,689
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -168,7 +168,7 @@ Digital F Color=#FFFF00
 Digital 1 Color=#FF0000
 Digital X Color=#C0C0C0
 Digital Z Color=#808080
-Window Placement in Transient Analysis=2,3, -1,-1, -4,-23, 110,110,1495,721
+Window Placement in Transient Analysis=2,3, -1,-1, -9,-38, 256,256,1879,849
 SpiceType=AMBIGUOUS
 Block Select Color=#51F998
 TitleBlock Field_1=$name
@@ -220,9 +220,6 @@ Style=8192
 [Attr]
 ONV=-35,-35,VALUE,20
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=20,20
@@ -235,9 +232,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,2k
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -252,9 +246,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=39,20
@@ -267,9 +258,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -284,9 +272,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=58,20
@@ -299,9 +284,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -316,9 +298,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=76,20
@@ -331,9 +310,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -348,9 +324,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=18,31
@@ -363,9 +336,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -380,9 +350,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=35,31
@@ -395,9 +362,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -412,9 +376,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=55,31
@@ -427,9 +388,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Resistor
@@ -444,9 +402,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=73,31
@@ -460,9 +415,6 @@ Style=8192
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Resistor
 Grid=82,31
@@ -475,9 +427,6 @@ Style=8192
 [Attr]
 ONV=18,-34,RESISTANCE,2*R(R)
 Style=8192
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Wire]
 Grids=73,20,76,20
@@ -545,16 +494,13 @@ ONV=-24,-30,PART,K1
 Style=8192
 
 [Attr]
-ONV=1,36,STATE,UP
+ONV=1,36,STATE,DOWN
 
 [Attr]
 ONV=1,50,RON,1m
 
 [Attr]
 ONV=1,64,ROFF,1e15
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Animated SPDT Switch
@@ -574,9 +520,6 @@ ONV=1,50,RON,1m
 [Attr]
 ONV=1,64,ROFF,1e15
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Animated SPDT Switch
 Grid=34,37
@@ -594,9 +537,6 @@ ONV=1,50,RON,1m
 
 [Attr]
 ONV=1,64,ROFF,1e15
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Animated SPDT Switch
@@ -616,9 +556,6 @@ ONV=1,50,RON,1m
 [Attr]
 ONV=1,64,ROFF,1e15
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Animated SPDT Switch
 Grid=54,37
@@ -636,9 +573,6 @@ ONV=1,50,RON,1m
 
 [Attr]
 ONV=1,64,ROFF,1e15
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Comp]
 Name=Animated SPDT Switch
@@ -658,9 +592,6 @@ ONV=1,50,RON,1m
 [Attr]
 ONV=1,64,ROFF,1e15
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Animated SPDT Switch
 Grid=72,37
@@ -679,9 +610,6 @@ ONV=1,50,RON,1m
 [Attr]
 ONV=1,64,ROFF,1e15
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Comp]
 Name=Animated SPDT Switch
 Grid=81,37
@@ -692,16 +620,13 @@ ONV=-24,-30,PART,K8
 Style=8192
 
 [Attr]
-ONV=1,36,STATE,DOWN
+ONV=1,36,STATE,UP
 
 [Attr]
 ONV=1,50,RON,1m
 
 [Attr]
 ONV=1,64,ROFF,1e15
-
-[Attr]
-ONV=0,0,PACKAGE,
 
 [Wire]
 Grids=81,37,81,39
@@ -822,9 +747,6 @@ Style=8192
 ONV=12,15,RESISTANCE,R(R)
 Style=8192
 
-[Attr]
-ONV=0,0,PACKAGE,
-
 [Wire]
 Grids=86,33,86,39
 
@@ -928,7 +850,7 @@ TextQuad=4099
 Scale=1
 PrinterScale=1
 GridUser=10
-ShapeGroups="Main","Euro","DeMorgan","Polarity","Electrolytic","GroundArrow"
+ShapeGroups="Main","Euro","DeMorgan","Polarity","Electrolytic"
 CalcRMS=False
 CalcAVG=False
 CalcPeak=False
@@ -1026,7 +948,7 @@ Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=1
-Grid=18,34
+Grid=100,52
 
 [Page]
 Index=1
@@ -1083,7 +1005,7 @@ Len=0
 
 
 [Transient]
-Window Placement=2,3, -1,-1, -4,-23, 110,110,1495,721
+Window Placement=2,3, -1,-1, -9,-38, 256,256,1879,849
 Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1132,12 +1054,12 @@ FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
 MonMaxShow=3
-MonPageWidth=66
-MonPlotWidth=21
-MonExprXWidth=142
-MonExprYWidth=260
-MonRangeXWidth=90
-MonRangeYWidth=90
+MonPageWidth=81
+MonPlotWidth=25
+MonExprXWidth=159
+MonExprYWidth=289
+MonRangeXWidth=111
+MonRangeYWidth=111
 AnimateWait=0
 AnimateWaitTime=500
 Save_For_Future=No
